@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RATAZANA</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <script src="./behavior.js" defer></script>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <h1><a href="">Ratazana</a></h1>
+
+        <nav>
+            <ul>
+                <li><a class="nav_link" href="#about" data-section-id="about">about</a></li>
+                <li><a class="nav_link" href="#features" data-section-id="features">features</a></li>
+            </ul>
+
+            <button>
+                download
+            </button>
+        </nav>
+
+        <div id="hamburger_icon">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
+
+    <main>
+        <!-- ABOUT SECTION -->
+        <section id="about">
+            <h2>about Ratazana</h2>
+
+            <h3 class="hidden_left">Not any project...</h3>
+
+            <p class="hidden_right">
+                The idea for Ratazana grew from my passion for sports and jersey collecting. I often struggled to keep track of jersey prices across different sites, which led me to create a centralized platform where fans can browse jerseys, track price changes, and receive alerts. Ratazana reflects my dedication to using technology to solve real-world problems.</p>
+
+            <div id="gallery">
+                <div id="main_image_container">
+                    <img id="main_image" src="./resources/images/screenshots/screenshot_001.png" alt="">
+                </div>
+
+                <div id="thumbnails">
+                    <img class="thumbnail" src="./resources/images/screenshots/Screenshot_001.png" alt="Thumbnail N°1">
+                    <img class="thumbnail" src="./resources/images/screenshots/Screenshot_002.png" alt="Thumbnail N°2">
+                    <img class="thumbnail" src="./resources/images/screenshots/Screenshot_003.png" alt="Thumbnail N°3">
+                    <img class="thumbnail" src="./resources/images/screenshots/Screenshot_004.png" alt="Thumbnail N°4">
+                </div>
+            </div>
+        </section>
+
+        <!-- FEATURES SECTION -->
+        <section id="features">
+            <h2>features</h2>
+
+            <div class="feature">
+                <img class="hidden_left" src="./resources/images/screenshots/Screenshot_002.png" alt="Feature screenshot N°1">
+                
+                <div class="feature_description hidden_right">
+                    <h3>Interactive Jersey catalog</h3>
+
+                    <p>Browse an extensive catalog of jerseys, with detailed information including prices, sizes, and availability. Easily filter through various teams and categories to find the perfect jersey.</p>
+                    
+                </div>
+            </div>
+
+            <div class="feature reverse">
+                <img class="hidden_right" src="./resources/images/screenshots/Screenshot_003.png" alt="Feature screenshot N°2">
+                
+                <div class="feature_description hidden_left">
+                    <h3>Price tracking</h3>
+
+                    <p>Set alerts for price drops on your favorite jerseys! Our price tracking feature notifies you when prices change, ensuring you never miss a great deal.</p>
+                    
+                </div>
+            </div>
+
+            <div class="feature">
+                <img class="hidden_left" src="./resources/images/screenshots/Screenshot_004.png" alt="Feature screenshot N°3">
+                
+                <div class="feature_description hidden_right">
+                    <h3>User-friendly interface</h3>
+
+                    <p>Enjoy a seamless shopping experience with our intuitive interface. Navigate through categories, view detailed product pages, and make purchases with ease.</p>
+                    
+                </div>
+            </div>
+
+            <div id="description">
+                <h4 class="hidden_top">Team member</h4>
+
+                <p class="hidden_bottom">
+                    Yousra Kerdouchi - FullStack developer
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <ul class="hidden_top">
+            <li>
+                <a class="social_icon" href="" target="_blank">
+                    <img src="./resources/images/social_icon-github.png" title="GitHub" alt="Github social icon">
+                </a>
+            </li>
+            <li>
+                <a class="social_icon" href="" target="_blank">
+                    <img src="./resources/images/social_icon-linkedin.png" title="LinkedIn" alt="LinkedIn social icon">
+                </a>
+            </li>
+        </ul>
+
+        <ul class="hidden_bottom">
+            <li id="copyright">© 2024 - Ratazana</li>
+        </ul>
+    </footer>
+
+    <div id="move_to_top_button">
+        <img src="./resources/images/arrow-up.png" alt="Arrow up">
+    </div>
+</body>
+
+</html>
