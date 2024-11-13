@@ -276,19 +276,6 @@ nav button:active {
     transform: scale(0.95);
 }
 
-
-/********** ABOUT SECTION ADJUSTMENT **********/
-#gallery #main_image_container:first-child img {
-    width: 70%; /* Adjust the width as desired */
-    max-width: 70%; /* Ensures it doesn’t scale larger on bigger screens */
-}
-
-/********** ABOUT SECTION TEXT ADJUSTMENT **********/
-#about > *:not(#gallery) {
-    max-width: 75%; /* Adjust width as desired */
-    margin: 0 auto; /* Center-aligns the content */
-}
-
 /* About section responsive */
 @media (max-width: 768px) {
     #about {
@@ -573,4 +560,17 @@ footer ul {
         transform: translateX(0%);
         transition: none;
     }
+}
+
+
+/********** ABOUT SECTION ADJUSTMENT **********/
+#gallery #main_image_container:first-child img {
+    width: 70%; /* Adjust the width as desired */
+    max-width: 70%; /* Ensures it doesn’t scale larger on bigger screens */
+}
+
+/********** ABOUT SECTION TEXT ADJUSTMENT **********/
+#about > *:not(#gallery) {
+    max-width: 75%; /* Adjust width as desired */
+    margin: 0 auto; /* Center-aligns the content */
 }
