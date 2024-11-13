@@ -276,6 +276,14 @@ nav button:active {
     transform: scale(0.95);
 }
 
+
+/********** ABOUT SECTION ADJUSTMENT **********/
+#gallery #main_image_container:first-child img {
+    width: 70%; /* Adjust the width as desired */
+    max-width: 70%; /* Ensures it doesn’t scale larger on bigger screens */
+}
+
+
 /* About section responsive */
 @media (max-width: 768px) {
     #about {
